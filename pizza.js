@@ -1,4 +1,4 @@
-const takeOrder = () => {
-  console.log('Order: pizza');
+const takeOrder = (topping) => {
+  console.log(`Order: pizza topped with ${topping}`);
 };
 takeOrder();
